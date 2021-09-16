@@ -28,11 +28,11 @@ let numMechanicInNairobi = 500
 let numMechanicInNakuru = x
 
 if(numMechanicInNairobi <= numMechanicInNakuru){
-    return alert('Their is no neeed of moving from Nakuru to set up a businesss in a Nairobi')
+    alert('Their is no neeed of moving from Nakuru to set up a businesss in a Nairobi')
 }else if(numMechanicInNairobi === numMechanicInNakuru){
-    return alert('You should consider the a mount of starting a fresh businesss in Nairobi')
+    alert('You should consider the a mount of starting a fresh businesss in Nairobi')
 }else{
-    return alert('There is no need of moving from Nakuru to Nairobi');
+    alert('There is no need of moving from Nakuru to Nairobi');
 };
 
 
@@ -40,13 +40,13 @@ let newBusinessCostNairobi = 'notStarted';
 let businessCostNakuru   = 'started';
 
 if(newBusinessCostNairobi === started){
-    return alert('consider the profits you get after the deductibles.')
+    alert('consider the profits you get after the deductibles.')
 }else if(businessCostNakuru === started){
-    return alert("I don't think moving to Nairobi is feasible. He can redesign his business model to marry with the local market")
+    alert("I don't think moving to Nairobi is feasible. He can redesign his business model to marry with the local market")
 }else{
-    return alert('starting a new business will cost higher amount.')
+    alert('starting a new business will cost higher amount.')
 }
-console.log(newBusinessCostNairobi)
+
 // My Conclusion
 //First before moving you have to consider the consider the cost of setting up the business in a new place and customer acquisition rate.You need some good savings for this You also need to consider the profits you get after the deductibles . In the end working and establish yourself would be wiser because although the clients might be fewer but the profits you get from it would be higher than in Nairobi.
 
